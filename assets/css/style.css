@@ -203,3 +203,42 @@ input[type=submit] {
     background-color: #4aaaa5;
     border: 0 none; 
 }
+
+@media screen and (max-width: 980px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 728px;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        max-width: 374px;
+        padding: 20px;
+    }
+    #head {
+        position: static;
+        width: 100%;
+        max-width: 640px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    #logo {
+        width: 100%;
+        max-width: 640px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    nav {
+        float: left;
+        margin: 0px;
+    }
+}
